@@ -1,0 +1,12 @@
+body{font-family:'Source Sans Pro',sans-serif;margin:0;padding:0;display:flex;justify-content:center;}
+:root{--primary-color:#FF6565;--max-width:1000px;}
+header{width:100%;max-width:var(--max-width);}
+.navbar{display:flex;justify-content:space-between;padding:1rem;}
+.nav-links{list-style:none;display:flex;gap:1rem;}
+.nav-links a{text-decoration:none;color:black;}
+.nav-links a:hover,.nav-links a:active{color:var(--primary-color);}
+.what-we-do{padding:3rem 1rem;text-align:center;}
+.what-we-do .items{display:flex;justify-content:center;gap:2rem;margin-top:2rem;}
+.item{display:flex;flex-direction:column;align-items:center;}
+.item i{font-size:3rem;color:var(--primary-color);}
+@media(max-width:480px){.nav-links{display:none;}.what-we-do .items{flex-direction:column;}}

@@ -1,0 +1,4 @@
+.results{text-align:center;padding:3rem 1rem;}
+.pentagons{display:flex;justify-content:center;gap:2rem;}
+.pentagon{width:100px;height:100px;background:#FF6565;clip-path:polygon(50% 0%,100% 38%,82% 100%,18% 100%,0% 38%);display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;}
+@media(max-width:480px){.pentagons{flex-direction:column;gap:1rem;}}

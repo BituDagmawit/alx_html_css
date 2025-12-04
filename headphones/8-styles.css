@@ -1,0 +1,7 @@
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:1rem;}
+.nav-links{display:flex;list-style:none;gap:1rem;}
+.nav-links a{text-decoration:none;color:black;}
+.nav-links a:hover{color:#FF6565;}
+.hamburger{display:none;font-size:2rem;cursor:pointer;}
+@media(max-width:480px){.nav-links{display:none;flex-direction:column;width:100%;}.hamburger{display:block;}}
+.nav-links.show{display:flex;background:#fff;position:absolute;top:60px;left:0;padding:1rem;}
