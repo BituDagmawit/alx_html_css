@@ -2,7 +2,7 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Optional: make body full viewport height */
+  height: 100vh; /* Full viewport height */
   margin: 0; /* Remove default margin */
 }
 
@@ -17,26 +17,48 @@ main {
 article {
   flex: 2;
   overflow-y: auto; /* Enable scrolling if content overflows */
+  padding: 15px;
+  background-color: #f0f8ff; /* Light blue */
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
 }
 
 /* Aside takes 1/3 of the width */
 aside {
   flex: 1;
   overflow-y: auto; /* Enable scrolling if content overflows */
+  padding: 15px;
+  background-color: #fff8dc; /* Light yellow */
 }
 
-/* Optional: just for visual clarity */
-header, footer {
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #4caf50; /* Green header */
+  color: white;
   padding: 10px;
-  background-color: #f0f0f0;
 }
 
-article {
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
   padding: 10px;
-  background-color: #e0f7fa;
 }
 
-aside {
-  padding: 10px;
-  background-color: #ffe0b2;
+/* Logo styling */
+.logo {
+  font-size: 2rem; /* Bigger than normal text */
+  margin-right: 10px;
+}
+
+/* Header navigation list */
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
 }
